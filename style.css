@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+canvas{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.ball-text{
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    right: 20%;
+    bottom: 40%;
+    transform: translate(-20%,-40%);
+}
+body{
+    overflow-x: hidden;
+}
