@@ -20,3 +20,41 @@ canvas{
 body{
     overflow-x: hidden;
 }
+header{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    
+    padding: 0 2rem;
+    
+    align-items: center;
+    background-color: transparent;
+    z-index: 4;
+    width: 100%;
+    height: fit-content;
+    backdrop-filter: blur(20px);
+    color: white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    
+}
+nav ul li{
+    padding: 1rem;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
