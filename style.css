@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@100;300;400;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,17 +13,60 @@ canvas{
 .ball-text{
     position: fixed;
     z-index: 2;
-    color: white;
+    color: black;
     font-size: 5rem;
-    right: 20%;
-    bottom: 40%;
-    transform: translate(-20%,-40%);
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.p_1{
+    position: fixed;
+    z-index: 3;
+    color: black;
+    font-size: 2rem;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.ball-text-ult{
+    position: fixed;
+    z-index: 2;
+    color: black;
+    font-size: 5rem;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.p_1-ult{
+    position: fixed;
+    z-index: 3;
+    color: black;
+    font-size: 2rem;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+nav img{
+    width: 5%;
 }
 body{
     overflow-x: hidden;
 }
 header{
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0;
     
@@ -33,7 +78,7 @@ header{
     width: 100%;
     height: fit-content;
     backdrop-filter: blur(20px);
-    color: white;
+    
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 nav{
@@ -55,6 +100,8 @@ nav ul li{
 
 nav a{
     text-decoration: none;
-    color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
